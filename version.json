@@ -1,0 +1,9 @@
+{
+  "_howto": "Bump versionCode AFTER a release is live on Play, never before — the keyboard compares this against the installed build and would otherwise point people at a version they cannot get. Set minVersionCode only when an older build is genuinely broken; it makes the prompt insistent, it never blocks typing. The keyboard reads this at most twice a day.",
+
+  "versionCode": 6,
+  "versionName": "1.4.1",
+
+  "minVersionCode": 0,
+  "note": ""
+}
